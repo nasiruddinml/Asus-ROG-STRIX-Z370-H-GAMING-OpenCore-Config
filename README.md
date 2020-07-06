@@ -1,0 +1,1 @@
+# Asus ROG STRIX Z370-H GAMING OpenCore Config

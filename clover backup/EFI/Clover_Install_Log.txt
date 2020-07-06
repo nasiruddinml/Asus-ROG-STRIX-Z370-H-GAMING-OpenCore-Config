@@ -1,0 +1,54 @@
+
+Clover EFI installer log - Thu Aug  9 02:26:18 +06 2018
+Installer version: v2.4k r4458 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk3         255.9 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *1.0 TB     disk1
+   1:               Windows_NTFS                         178.3 GB   disk1s1
+   2:               Windows_NTFS Games                   178.3 GB   disk1s2
+   3:               Windows_NTFS Entertrinment           315.1 GB   disk1s3
+   4:               Windows_NTFS Soft & Backup           328.6 GB   disk1s4
+
+/dev/disk2 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         512.1 GB   disk2
+   1:           Windows Recovery                         523.2 MB   disk2s1
+   2:                        EFI NO NAME                 103.8 MB   disk2s2
+   3:         Microsoft Reserved                         16.8 MB    disk2s3
+   4:       Microsoft Basic Data                         511.5 GB   disk2s4
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk3
+                                 Physical Store disk0s2
+   1:                APFS Volume OSX                     67.4 GB    disk3s1
+   2:                APFS Volume Preboot                 21.6 MB    disk3s2
+   3:                APFS Volume Recovery                519.0 MB   disk3s3
+   4:                APFS Volume VM                      2.1 GB     disk3s4
+
+Target volume /Volumes/OSX on disk3 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/OSX/EFIROOTDIR/EFI folder to /Volumes/OSX/EFI-Backups/r4458/2018-08-09-02h26/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
